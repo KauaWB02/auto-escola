@@ -13,7 +13,6 @@
   margin: auto;
 }
 
-
 header {
   width: 100%;
   display: flex;
@@ -22,7 +21,6 @@ header {
   align-items: center;
   padding-top: 1rem;
 }
-
 
 .width-30 {
   width: 30.33%;
@@ -55,198 +53,183 @@ header .login-and-contact {
   align-items: center;
   justify-content: flex-end;
   gap: 1rem;
-
-  .login {
-    border: none;
-    background-color: transparent;
-    color: #26252a;
-    font-weight: 500;
-    cursor: pointer;
-    font-size: 1rem;
-  }
 }
 
-main {
-  .emphasis {
-    padding: 10rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 3rem;
-    background-color: #fef8f3;
+header .login-and-contact .login {
+  border: none;
+  background-color: transparent;
+  color: #26252a;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 1rem;
+}
 
+main .emphasis {
+  padding: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  background-color: #fef8f3;
+}
 
-    .title {
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
+main .emphasis .title {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 
-      h2 {
-        font-size: 3.50rem;
-        font-weight: 500;
-      }
+main .emphasis .title h2 {
+  font-size: 3.50rem;
+  font-weight: 500;
+}
 
-      h3 {
-        font-size: 2rem;
-        font-weight: 400;
-      }
+main .emphasis .title h3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
 
-    }
+main .emphasis .button-emphasis {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  gap: 1rem;
+  justify-content: space-evenly;
+}
 
-    .button-emphasis {
-      display: flex;
-      flex-direction: row;
-      width: 40%;
-      gap: 1rem;
-      justify-content: space-evenly;
+main .emphasis .button-emphasis button {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+}
 
-      button {
-        display: flex;
-        flex-direction: row;
-        gap: 1rem;
-        align-items: center;
-        background-color: transparent;
-        border: none;
-      }
+main .emphasis .button-emphasis .about {
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: 50px;
+  border: 2px solid transparent;
+  background-image: linear-gradient(white, white), linear-gradient(to right, #92caff, #ff9a9e);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
 
-      .about {
-        padding: 1rem;
-        cursor: pointer;
-        border-radius: 50px;
-        border: 2px solid transparent;
-        /* Torna a borda transparente */
-        background-image: linear-gradient(white, white),
-          linear-gradient(to right, #92caff, #ff9a9e);
-        background-origin: border-box;
-        background-clip: padding-box, border-box;
+main .emphasis .button-emphasis .about span {
+  font-weight: 600;
+  font-size: 1.40rem;
+}
 
-        span {
-          font-weight: 600;
-          font-size: 1.40rem;
-        }
-      }
+main .emphasis .emphasis-images {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
 
-    }
+main .emphasis .emphasis-images .img img {
+  width: 100%;
+  border-radius: 40px;
+  height: 100%;
+}
 
-    .emphasis-images {
-      display: flex;
-      flex-direction: row;
-      gap: 1rem;
+main .mission-vision-values {
+  padding-top: 5rem;
+}
 
-      .img {
+main .mission-vision-values .title-section {
+  text-align: center;
+}
 
-        img {
-          width: 100%;
-          border-radius: 40px;
-          height: 100%;
-        }
-      }
-    }
-  }
+main .mission-vision-values .title-section h1 {
+  font-size: 3rem;
+}
 
-  .mission-vision-values {
-    padding-top: 5rem;
+main .mission-vision-values .wrapper-box {
+  display: flex;
+  flex-direction: row;
+  padding: 10rem;
+  padding-top: 5rem;
+  justify-content: center;
+  gap: 5rem;
+}
 
-    .title-section {
-      text-align: center;
+main .mission-vision-values .wrapper-box .box {
+  width: 25.33%;
+  padding: 1rem;
+  border: 2px solid #e1e1e1;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  -webkit-box-shadow: 26px 10px 46px -18px rgba(153, 153, 153, 1);
+  -moz-box-shadow: 26px 10px 46px -18px rgba(153, 153, 153, 1);
+  box-shadow: 26px 10px 46px -18px rgba(153, 153, 153, 1);
+}
 
-      h1 {
-        font-size: 3rem;
-      }
-    }
+main .mission-vision-values .wrapper-box .box .title {
+  text-align: center;
+}
 
-    .wrapper-box {
-      display: flex;
-      flex-direction: row;
-      padding: 10rem;
-      padding-top: 5rem;
-      justify-content: center;
-      gap: 5rem;
+main .mission-vision-values .wrapper-box .box .description {
+  text-align: center;
+}
 
-      .box {
-        width: 25.33%;
-        padding: 1rem;
-        border: 2px solid #e1e1e1;
-        border-radius: 7px;
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        -webkit-box-shadow: 26px 10px 46px -18px rgba(153, 153, 153, 1);
-        -moz-box-shadow: 26px 10px 46px -18px rgba(153, 153, 153, 1);
+main .services {
+  padding: 10rem;
+  padding-top: 4rem;
+  background-color: #fef8f3;
+}
 
-        box-shadow: 26px 10px 46px -18px rgba(153, 153, 153, 1);
+main .services .title-services {
+  text-align: center;
+}
 
-        .title {
-          text-align: center;
-        }
+main .services .title-services h1 {
+  font-size: 3rem;
+}
 
-        .description {
-          text-align: center;
-        }
-      }
-    }
+main .services .box-wrapper {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+}
 
+main .services .box-wrapper .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
 
-  }
+main .services .box-wrapper .box .box-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
 
-  .services {
-    padding: 10rem;
-    padding-top: 4rem;
-    background-color: #fef8f3;
+main .services .box-wrapper .box .box-text .box-title h1 {
+  font-size: 2rem;
+}
 
-    .title-services{
-      text-align: center;
-      h1{
-        font-size: 3rem;
-      }
-    }
+main .services .box-wrapper .box .box-text .box-title h1 span {
+  color: #814d23;
+}
 
-    .box-wrapper {
-      display: flex;
-      flex-direction: column;
+main .services .box-wrapper .box .box-image {
+  width: 20%;
+}
 
-      .box {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10rem;
-
-        .box-text {
-          display: flex;
-          flex-direction: column;
-          gap: 2rem;
-
-          .box-title {
-
-            h1 {
-              font-size: 2rem;
-              span{
-                color: #814d23;
-              }
-            }
-          }
-        }
-
-        .box-image {
-          width: 20%;
-
-          img {
-            border-radius: 7px;
-            width: 100%;
-            height: 100%s;
-          }
-        }
-      }
-    }
-  }
+main .services .box-wrapper .box .box-image img {
+  border-radius: 7px;
+  width: 100%;
+  height: 100%;
 }
 
 .ciano {
   background-color: cadetblue;
 }
-
-
 
 .apply-license {
   padding: 1rem !important;
@@ -257,4 +240,105 @@ main {
   font-size: 1rem !important;
   cursor: pointer !important;
   border: none !important;
+}
+
+/* Media Queries para Responsividade */
+
+/* Para tablets */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  header .img img {
+    width: 20%;
+  }
+
+  header .sessions ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  header .login-and-contact {
+    justify-content: center;
+  }
+
+  main .emphasis {
+    padding: 5rem;
+  }
+
+  main .emphasis .title h2 {
+    font-size: 2.5rem;
+  }
+
+  main .emphasis .title h3 {
+    font-size: 1.5rem;
+  }
+
+  main .emphasis .button-emphasis {
+    width: 60%;
+  }
+
+  main .emphasis .emphasis-images {
+    flex-direction: column;
+  }
+
+  main .mission-vision-values .wrapper-box {
+    flex-direction: column;
+    padding: 5rem;
+    gap: 2rem;
+  }
+
+  main .mission-vision-values .wrapper-box .box {
+    width: 100%;
+  }
+
+  main .services {
+    padding: 5rem;
+  }
+
+  main .services .box-wrapper .box {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  main .services .box-wrapper .box .box-image {
+    width: 50%;
+  }
+}
+
+/* Para smartphones */
+@media (max-width: 480px) {
+  header .img img {
+    width: 30%;
+  }
+
+  main .emphasis {
+    padding: 2rem;
+  }
+
+  main .emphasis .title h2 {
+    font-size: 2rem;
+  }
+
+  main .emphasis .title h3 {
+    font-size: 1.2rem;
+  }
+
+  main .emphasis .button-emphasis {
+    width: 80%;
+  }
+
+  main .mission-vision-values .wrapper-box {
+    padding: 2rem;
+  }
+
+  main .services {
+    padding: 2rem;
+  }
+
+  main .services .box-wrapper .box .box-image {
+    width: 80%;
+  }
 }
